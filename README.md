@@ -50,5 +50,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Place the course dataset `Project_Data_EE4C12_S&S_EMG.csv` next to the notebooks. It is not
-redistributed here.
+The course dataset `Project_Data_EE4C12_S&S_EMG.csv` is not redistributed here. The ML notebook reads it
+from the notebook folder. The DL notebook was written for Google Colab and reads
+`/content/Project_Data_EE4C12_S&S_EMG.csv`; upload the file to Colab, or change that path when running
+locally.
